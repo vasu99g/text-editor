@@ -20,7 +20,7 @@ Linked lists support pointer manipulation, will would help us to reduce the time
 ## Disadvantages:
 - Higher overhead per node (higher space complexity per node)
 
-# Using a unrolled list helps us to reduce the following time complexities: (n is the number of chars in the file)
+## Using a unrolled list helps us to reduce the following time complexities: (n is the number of chars in the file)
 - Paste: O(n) -> O((i / node_size) + clipboard_size) (typically)
 - Cut: O(n) -> O(j / node_size) (typically)
 
